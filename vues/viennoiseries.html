@@ -1,0 +1,214 @@
+<!--Copyright © 2020 Douchane & Chris :)-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets//favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets//favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets//favicon/favicon-16x16.png">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+    <!-- scroll-out library -->
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Viennoiseries maison</title>
+</head>
+
+<body>
+    <video id="videoBg" poster="poster.jpg" autoplay muted loop>
+      <source src="../videos/Corn - 46139.mp4" type="video/mp4">
+    </video>
+
+    <header class="container">
+        <nav class="container-nav">
+            <img src="../assets/logo.png" alt="logo">
+            <ol class="nav-links">
+                <li>
+                    <a href="../index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="../vues/inscription.html">Inscription</a>
+                </li>
+            </ol>
+            <div class="burger ">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container container-pains">
+            <h3 class="animate__animated animate__bounce animate__delay-2s container_titre">Viennoiseries maison</h3>
+            <p class="container_text">
+              <span class="bold">La viennoiserie</span> est le produit de boulangerie dont la technique de fabrication
+               se rapproche de celle du pain ou de la pâte feuilletée mais auxquels leurs ingrédients donnent un caractère plus gras et plus sucré qui les rapproche de  
+              <span class="bold">la pâtisserie</span>.
+            </p>
+            
+            <div data-scroll class="recette">
+              <figure class="recette_preview recette-slide" id="slidr-1">
+                <img class="recette-img" data-slidr="one" src="../assets/vienno/croissant1.jpg" />
+                <img class="recette-img" data-slidr="two" src="../assets/vienno/croissant2.jpg" />
+                <img class="recette-img" data-slidr="three" src="../assets/vienno/croissant3.jpg" />
+                <figcaption class="recette-title">
+                    Croissant pur beurre AOP
+                </figcaption>
+              </figure>
+              
+              <div class="recette_description parent-click">
+                <h3 class="recette-header">
+                    Croissant pur beurre AOP                     
+                </h3>
+                <p class="recette-location">
+                  <span class="bold">pays d'origine:</span>
+                    France
+                </p>
+                <p class="recette-farine">
+                  <span class="bold">pâte</span>
+                  pâte feuilletée levée
+                </p>
+                <p class="recette-level">
+                  <span class="bold">niveau:</span>
+                  Très difficile
+                </p>
+                <div class="btn btn-click">
+                  <p class="btn_link">
+                    Voir plus
+                  </p>
+                </div>  
+                <p class="recette-active el-click"></p>
+              </div>
+            </div>
+
+            <div data-scroll class="recette">
+              <figure class="recette_preview recette-slide" id="slidr-2">
+                <img class="recette-img" data-slidr="one" src="../assets/vienno/pain-au-chocolat1.jpg" />
+                <img class="recette-img" data-slidr="two" src="../assets/vienno/pain-au-chocolat2.jpg" />
+                <figcaption class="recette-title">
+                    Pain au chocolat / Chocolatine                       
+                </figcaption>
+              </figure>
+              
+              <div class="recette_description parent-click">
+                <h3 class="recette-header">
+                    Pain au chocolat / Chocolatine                        
+                </h3>
+    
+                <p class="recette-location">
+                  <span class="bold">pays d'origine:</span>
+                  France
+                </p>
+                <p class="recette-farine">
+                  <span class="bold">pâte</span>
+                  pâte feuilletée levée
+                </p>
+                <p class="recette-level">
+                  <span class="bold">niveau:</span>
+                  Très difficile
+                </p>
+                <div class="btn btn-click">
+                  <p class="btn_link">
+                    Voir plus
+                  </p>
+                </div>  
+                <p class="recette-active el-click"></p> 
+              </div>
+            </div>
+            <div data-scroll class="recette">
+              <figure class="recette_preview recette-slide" id="slidr-3">
+                <img class="recette-img" data-slidr="one" src="../assets/vienno/danish3.jpg" />
+                <img class="recette-img" data-slidr="two" src="../assets/vienno/danish4.jpg" />
+                <img class="recette-img" data-slidr="three" src="../assets/vienno/danish1.jpg" />
+                <img class="recette-img" data-slidr="four" src="../assets/vienno/danish.jpg" />
+                <figcaption class="recette-title">
+                  Viennoiserie danoise                    
+                </figcaption>
+              </figure>
+              
+              <div class="recette_description parent-click">
+                <h3 class="recette-header">
+                  Viennoiserie danoise                           
+                </h3>
+    
+                <p class="recette-location">
+                  <span class="bold">pays d'origine:</span>
+                  Danemark
+                </p>
+                <p class="recette-farine">
+                  <span class="bold">pâte</span>
+                  pâte feuilletée levée
+                </p>
+                <p class="recette-level">
+                  <span class="bold">niveau:</span>
+                  Très difficile
+                </p>
+                <div class="btn btn-click">
+                  <p class="btn_link">
+                    Voir plus
+                  </p>
+                </div>  
+                <p class="recette-active el-click"></p>
+              </div>
+            </div>  
+        </section>
+    </main>
+    <div class="bande"></div>
+    <footer>
+        <div class="footer">
+            <img src="../assets/logo.png" alt="logo" width="80px" height="80px">
+    
+            <ul class="foot-links">
+              <li><a href="../index.html">Accueil</a></li>
+              <li><a href="formation.html">Formations</a></li>
+              <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+    
+            <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../js/main.js "></script>
+    <script src="../js/createElVienno.js "></script>
+
+    <!-- Scroll-out js -->
+    <script>
+      ScrollOut({
+        once: true,
+        treshold: 0.8,
+      });
+    </script>
+
+    <!-- slidr.js -->
+    <script src="../js/slidr.min.js"></script>
+    <script>
+      slidr.create("slidr-1", {
+      breadcrumbs: true,
+      touch: true
+    })
+    .start(); 
+      slidr.create("slidr-2", {
+      breadcrumbs: true,
+      touch: true
+    })
+    .start(); 
+      slidr.create("slidr-3", {
+      breadcrumbs: true,
+      touch: true
+    })
+    .start();
+  </script> 
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!--Copyright © 2020 Douchane & Chris :)-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <title>Accuiel</title>
+</head>
+<body>
+    <video id="videoBg" poster="poster.jpg" autoplay muted loop>
+        <source src="./videos/Corn - 46139.mp4" type="video/mp4">
+    </video>
+
+    <header class="container">
+        <nav class="container-nav">
+            <img src="./assets/logo.png" alt="logo">
+            <ol class="nav-links">
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="./vues/inscription.html">Inscription</a>
+                </li>
+            </ol>
+            <div class="burger ">
+                <div class="line1 "></div>
+                <div class="line2 "></div>
+                <div class="line3 "></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <h2>Nos Recettes</h2>
+        <section class="container-sect1">
+            <a href="./vues/pains.html">
+                <article class="item  image-i1">
+                    <p>Pains</p>
+                </article>
+            </a>
+            <a href="./vues/viennoiseries.html">
+                <article class="item image-i2">
+                    <p>Viennoiseries</p>
+                </article>
+            </a>
+            <a href="./vues/gateaux.html">
+                <article class="item image-i3">
+                    <p>Gâteaux</p>
+                </article>
+            </a>
+        </section>
+        <section class="container-sect2  ">
+            <a href="./vues/formation.html">
+                <article>
+                    <p>Nos Formations</p>
+                </article>
+            </a>
+        </section>
+    </main>
+    <div class="bande"></div>
+    <footer>
+        <div class="footer">
+            <img src="./assets/logo.png" alt="logo" width="80px" height="80px">
+    
+            <ul class="foot-links">
+                <li><a href="./vues/formation.html">Formations</a></li>
+                <li><a href="./vues/inscription.html">Inscription</a></li>
+            </ul>
+    
+            <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

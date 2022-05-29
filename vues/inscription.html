@@ -1,0 +1,83 @@
+<!--Copyright © 2020 Douchane & Chris :)-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/inscription.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets//favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets//favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets//favicon/favicon-16x16.png">
+    <title>Inscriptions</title>
+</head>
+<body>
+    <video id="videoBg" poster="poster.jpg" autoplay muted loop>
+        <source src="../videos/Corn - 46139.mp4" type="video/mp4">
+    </video>
+    <header class="container">
+        <nav class="container-nav">
+            <img src="../assets/logo.png" alt="">
+            <ol class="nav-links">
+                <li>
+                    <a href="../index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="../vues/inscription.html">inscription</a>
+                </li>
+            </ol>
+            <div class="burger ">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="containerInscription" class="container1">
+            <h2>INSCRIPTION</h2>
+
+            <form action="" class="container2" id="dataForm" method="POST">
+
+                <input class="input" type="text" placeholder="tapez votre nom" name="nom">
+                <small></small>
+                <input class="input" type="text" placeholder="tapez votre prenom" name="prenom">
+                <small></small>
+                <input class="input" type="text" placeholder="tapez votre mail" name="mail" id="mail">
+                <small></small>
+                <input class="input" type="text" placeholder=" tapez password" name="password1">
+                <small></small>
+                <input class="input" type="text" placeholder="confirmation password" name="password2">
+                <small></small>
+                <input type="submit" id="btn" value="valider">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <img src="../assets/logo.png" alt="logo" width="80px" height="80px">
+    
+            <ul class="foot-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="formation.html">Formations</a></li>
+            </ul>
+    
+            <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../js/main.js "></script>
+    <script src="../js/inscription.js "></script>
+</body>
+
+</html>
